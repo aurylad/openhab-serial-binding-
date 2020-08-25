@@ -1,0 +1,7 @@
+NOTICE
+org/openhab/binding/uvsensor/internal/UvSensorBindingConstants.class
+org/openhab/binding/uvsensor/model/AQReading.class
+org/openhab/binding/uvsensor/internal/UvSensorHandler.class
+org/openhab/binding/uvsensor/internal/UvSensorHandlerFactory.class
+org/openhab/binding/uvsensor/internal/UvSensorConfiguration.class
+META-INF/MANIFEST.MF

@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.openhab.binding.uvsensor
+Bnd-LastModified: 1568121422734
+Bundle-Description: "This project contains the official add-ons of ope
+ nHAB"
+Bundle-Developers: openhab;email="info@openhab.org";name=openHAB;organ
+ ization=openHAB;organizationUrl="https://www.openHAB.org"
+Bundle-DocURL: https://github.com/openhab/infrastructure/org.openhab.a
+ ddons.reactor/org.openhab.addons.reactor.bundles/org.openhab.binding.
+ uvsensor
+Bundle-License: "Eclipse Public License 2.0";link="https://www.eclipse
+ .org/legal/epl-2.0/"
+Bundle-ManifestVersion: 2
+Bundle-Name: openHAB Add-ons :: Bundles :: UvSensor Binding
+Bundle-SCM: url="https://github.com/openhab/openhab2-addons/org.openha
+ b.addons.reactor.bundles/org.openhab.binding.uvsensor",connection="sc
+ m:git:https://github.com/openhab/openhab2-addons.git/org.openhab.addo
+ ns.reactor.bundles/org.openhab.binding.uvsensor",developer-connection
+ ="scm:git:https://github.com/openhab/openhab2-addons.git/org.openhab.
+ addons.reactor.bundles/org.openhab.binding.uvsensor",tag=HEAD
+Bundle-SymbolicName: org.openhab.binding.uvsensor
+Bundle-Vendor: openHAB.org
+Bundle-Version: 2.5.0.201909101317
+Created-By: 1.8.0_222 (Private Build)
+Export-Package: org.openhab.binding.uvsensor.model;version="2.5.0"
+Import-Package: org.eclipse.smarthome.config.core,org.eclipse.smarthom
+ e.core.thing,org.eclipse.smarthome.core.thing.binding,org.eclipse.sma
+ rthome.core.types,org.eclipse.smarthome.io.transport.serial,javax.xml
+ .bind;version="[2.2,3)",org.slf4j;version="[1.7,2)"
+Private-Package: ESH-INF.binding,ESH-INF.i18n,ESH-INF.thing,org.openha
+ b.binding.uvsensor.internal
+Provide-Capability: osgi.service;objectClass:List<String>="org.eclipse
+ .smarthome.core.thing.binding.ThingHandlerFactory"
+Require-Capability: osgi.service;filter:="(objectClass=org.eclipse.sma
+ rthome.io.transport.serial.SerialPortManager)";effective:=active,osgi
+ .extender;filter:="(&(osgi.extender=osgi.component)(version>=1.4.0)(!
+ (version>=2.0.0)))",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))
+ "
+Service-Component: OSGI-INF/org.openhab.binding.uvsensor.internal.UvSe
+ nsorHandlerFactory.xml
+Tool: Bnd-4.2.0.201903051501
+

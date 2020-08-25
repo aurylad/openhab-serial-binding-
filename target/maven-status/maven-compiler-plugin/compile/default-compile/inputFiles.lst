@@ -1,0 +1,5 @@
+/home/dovydas/openHAB/openhab-master/git/openhab2-addons/bundles/org.openhab.binding.uvsensor/src/main/java/org/openhab/binding/uvsensor/model/AQReading.java
+/home/dovydas/openHAB/openhab-master/git/openhab2-addons/bundles/org.openhab.binding.uvsensor/src/main/java/org/openhab/binding/uvsensor/internal/UvSensorHandler.java
+/home/dovydas/openHAB/openhab-master/git/openhab2-addons/bundles/org.openhab.binding.uvsensor/src/main/java/org/openhab/binding/uvsensor/internal/UvSensorConfiguration.java
+/home/dovydas/openHAB/openhab-master/git/openhab2-addons/bundles/org.openhab.binding.uvsensor/src/main/java/org/openhab/binding/uvsensor/internal/UvSensorHandlerFactory.java
+/home/dovydas/openHAB/openhab-master/git/openhab2-addons/bundles/org.openhab.binding.uvsensor/src/main/java/org/openhab/binding/uvsensor/internal/UvSensorBindingConstants.java
